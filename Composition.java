@@ -137,6 +137,8 @@ public class Composition {
         source.addSubFolders(cache);
         source.addSubFolders(publi);
         folder.addSubFolders(source);
+        folder.addSubFolders(includePath);
+        folder.addSubFolders(remoteFiles);
 
         //Demo
         int indent = 4;
